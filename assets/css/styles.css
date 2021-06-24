@@ -1,3 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Permanent+Marker&family=Roboto:wght@300&display=swap');
+
+
+/*Reset browser default values*/
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+
 body{
     background-color: aquamarine;
 }
+
+h1, h2{
+    font-family: Permanent Marker, sans-serif;
+}
+
+/*Styling header*/
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: bisque;
+}
+
+/*Styling logo*/
+#logo{
+    font-family: Dancing Script, sans-serif;
+    letter-spacing: 2px;
+    font-size: 50px;
+
+}
+
+header a{
+    text-decoration: none;
+}
+
+/*Navigation bar and navigation links*/
+#menu{
+    display: flex;
+    flex-direction: row;
+}
+
+#menu, #logo{
+    line-height: 75px;
+}
+
+#menu li{
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+#menu a{
+    text-decoration: none;
+}
+
+#menu a:hover{
+    border-bottom: 4px solid red;
+}
+
+
