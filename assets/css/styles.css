@@ -8,7 +8,9 @@
     border: none;
 }
 
-
+body{
+    font-family: Roboto, sans-serif;
+}
 
 
 h1, h2{
@@ -62,7 +64,7 @@ header a{
 /*Image styling*/
 #main-image{
     width: 100%;
-    height: 750px;
+    height: 500px;
     background: url('../images/9dbeadbd428f4ba9920cdcd3e0d8160b.jpeg') no-repeat center center;
     background-attachment: fixed;
 }
@@ -80,4 +82,29 @@ header a{
 
 #about-us p{
     width: 50%;
+}
+
+
+/*Tour section*/
+
+#tour-section{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#tour-container-box{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkgreen;
+}
+.tour{
+    width: 20px;
+    height: 20px;
+    background-color: crimson;
 }
