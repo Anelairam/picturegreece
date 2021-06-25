@@ -16,6 +16,7 @@ body{
 h1, h2{
     color: #2A2A93;
     font-family: Permanent Marker, sans-serif;
+    letter-spacing: 3px;
 }
 
 /*Styling header*/
@@ -29,6 +30,7 @@ header{
     font-family: Dancing Script, sans-serif;
     letter-spacing: 2px;
     font-size: 50px;
+    margin-left: 40px;
 
 }
 
@@ -89,10 +91,13 @@ header a{
 
 #tour-section{
     width: 80%;
+    height: 300px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 #tour-container-box{
@@ -103,8 +108,25 @@ header a{
     align-items: center;
     background-color: darkgreen;
 }
+
 .tour{
-    width: 20px;
-    height: 20px;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    text-align: center;
     background-color: crimson;
+  
+}
+
+
+.destination-link{
+    text-decoration: none;
+}
+
+.destination-link h1{
+    line-height: 160px;
+    /*margin-top: 65px;*/
+    background-color: rgba(255, 255, 255, 0.7);
+    letter-spacing: 2px;
+    
 }
