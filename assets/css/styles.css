@@ -66,7 +66,7 @@ header a{
 /*Image styling*/
 #main-image{
     width: 100%;
-    height: 500px;
+    height: 750px;
     background: url('../images/9dbeadbd428f4ba9920cdcd3e0d8160b.jpeg') no-repeat center center;
     background-attachment: fixed;
 }
@@ -91,7 +91,8 @@ header a{
 
 #tour-section{
     width: 80%;
-    height: 300px;
+    height: 350px;
+    background-color: blue;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -100,22 +101,27 @@ header a{
     
 }
 
+
 #tour-container-box{
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: darkgreen;
 }
 
 .tour{
-    width: 160px;
-    height: 160px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     text-align: center;
     background-color: crimson;
   
+}
+
+#urban{
+    background-color: cyan;
 }
 
 
@@ -123,10 +129,26 @@ header a{
     text-decoration: none;
 }
 
-.destination-link h1{
-    line-height: 160px;
+.destination-link h2{
+    line-height: 250px;
     /*margin-top: 65px;*/
     background-color: rgba(255, 255, 255, 0.7);
     letter-spacing: 2px;
     
+}
+
+
+/*Contact section*/
+
+#contact-section{
+    text-align: center;
+    height: 350px;
+}
+
+#contact-container-box{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-around;
 }
