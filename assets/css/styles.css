@@ -60,7 +60,7 @@ header a{
 }
 
 #menu a:hover{
-    border-bottom: 4px solid red;
+    border-bottom: 4px solid #2A2A93;
 }
 
 /*Image styling*/
@@ -79,7 +79,6 @@ header a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: lightblue;
 }
 
 #about-us p{
@@ -92,7 +91,6 @@ header a{
 #tour-section{
     width: 80%;
     height: 350px;
-    background-color: blue;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -151,7 +149,6 @@ header a{
 #contact-section h1{
     color: white;
     padding-top: 25px;
-    background-color: rgba(255, 255, 255, 0.4);
 }
 
 #contact-container-box{
@@ -160,14 +157,82 @@ header a{
     justify-content: space-around;
 }
 
+#form h2{
+    margin-bottom: 25px;
+}
+
 #form{
-    width: 350px;
-    height: 300px;
+    width: 75%;
+    max-width: 750px;
+    height: 350px;
+    margin: 25px 0;
+    padding: 15px;
     background-color: white;
     border: 1px solid #2A2A93;
     border-radius: 25px;
     box-shadow: 5px 10px #1d1d66;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
 }
+
+form{
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+}
+
+.form-sides{
+    width: 50%;
+    margin: 0 15px;
+    flex: 1;
+}
+
+.form-sides:nth-of-type(1),
+.form-sidesm:nth-of-type(2) {
+  flex-basis: 30%;
+}
+
+#right-side{
+    border-left: 2px solid #2A2A93;
+    padding-left: 25px;
+    flex: 37.5%;
+}
+
+.text-input{
+    border-radius: 5px;
+    border-bottom: 1px solid #1d1d66;
+    width: 95%;
+    padding: 8px 10px;
+    margin: 8px 2px;
+}
+
+input[type="radio"]{
+    margin-left: 10px;
+    margin-bottom: 25px;
+}
+
+input[type="radio"] #urban
+{
+    margin-left: 15px;
+}
+
+input[type="submit"]{
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    margin-top: 25px;
+    background-color: lightgreen;
+}
+
+
+
+
+
+
+
+/*https://stackoverflow.com/questions/53392965/set-two-flex-items-side-by-side-in-a-flexbox-column to flex me to submit apo katw*/
 
 /*
 

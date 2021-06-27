@@ -77,23 +77,35 @@
             <div id="form">
                 <h2>Send us an email!</h2>
                 <form action="#" method="POST">
-                    <label for="fname">Full name</label><br>
-                    <input class="text-input" type="text" id="fname" name="fname" required><br>
-                    <label for="pnumber">Phone number</label><br>
-                    <input class="text-input" type="tel" id="pnumber" name="pnumber" required><br>
-                    <label for="email">Email</label><br>
-                    <input class="text-input" type="email" id="email" name="email" required><br>
-                    <label for="message">Messsage</label><br>
-                    <input class="text-input" type="text" id="message" name="message"><br>
+                    <span id="left-side" class="form-sides">
+                        <label for="fname">Full name</label><br>
+                        <input class="text-input" type="text" id="fname" name="fname" required><br>
+                        <label for="pnumber">Phone number</label><br>
+                        <input class="text-input" type="tel" id="pnumber" name="pnumber" required><br>
+                        <label for="email">Email</label><br>
+                        <input class="text-input" type="email" id="email" name="email" required><br>
+                    </span>
+                    <span id="right-side" class="form-sides">
+                        <label id="theme" for="theme">Subject: </label>
+                        <input type="radio" id="Urban" name="fav_language" value="Urban">
+                        <label for="Urban">Urban</label>
+                        <input type="radio" id="Landscape" name="fav_language" value="Landscape">
+                        <label for="Landscape">Landscape</label>
+                        <input type="radio" id="Island" name="fav_language" value="Island">
+                        <label for="Island">Island</label><br>
+                        <label for="message">Messsage</label><br>
+                        <textarea class="text-input" rows="4" cols="50" id="message" name="message" placeholder="Let us know how can we help you..."></textarea><br>
+                    </span>
                     <input id="submit-btn" type="submit" value="Submit">
                 </form>
             </div>
             <div id="agency-info">
                 Agency info placeholder
             </div>
+            <!--
             <div id="map">
                 Maps placeholder
-            </div>
+            </div>-->
         </div>
     </section>
     <footer>Social Media</footer>
