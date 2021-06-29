@@ -254,11 +254,31 @@ input[type="submit"]{
 h3{
     margin: 8px 4px;
 }
-
+ /*Styling contact icons*/
 .fas{
     color: #2A2A93;
     margin: 8px 4px;
 }
+
+/*Styling footer*/
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fab{
+    font-size: 30px;
+    margin-bottom: 25px;
+    color: #2A2A93;
+}
+
+footer a:visited{
+    color: #2A2A93;
+}
+
+/*Styling social media icons*/
 
 /*Trying to get pages to work*/
 
