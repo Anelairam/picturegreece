@@ -8,6 +8,8 @@
     border: none;
 }
 
+/*Styling header, nav and footer which are common for all the pages*/
+
 body{
     font-family: Roboto, sans-serif;
     color: #2A2A93;
@@ -28,6 +30,7 @@ header{
     justify-content: space-between;
     overflow: hidden;
     position: fixed;
+    top: 0;
     background-color: white;
     box-shadow: 2px 2px rgba(83, 83, 83, 0.6);
 }
@@ -70,6 +73,27 @@ header a{
     border-bottom: 4px solid #2A2A93;
 }
 
+/*Styling footer*/
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*Styling social media icons*/
+.fab{
+    font-size: 30px;
+    margin-bottom: 25px;
+    color: #2A2A93;
+}
+
+footer a:visited{
+    color: #2A2A93;
+}
+
+/*Styles for index page*/
+
 /*Image styling*/
 #main-image{
     width: 100%;
@@ -77,15 +101,6 @@ header a{
     background: url('../images/9dbeadbd428f4ba9920cdcd3e0d8160b.jpeg') no-repeat center center;
     background-attachment: fixed;
 }
-
-/*test
-#main-image{
-    width: 100%;
-    height: 750px;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-*/
 
 /*About us section*/
 #about-us{
@@ -170,18 +185,6 @@ header a{
 .image-link:hover{
     text-decoration: underline #2A2A93;
 }
-
-/*
-.image-link h2{
-    line-height: 250px;
-    /*margin-top: 65px;
-    background-color: rgba(255, 255, 255, 0.7);
-    letter-spacing: 2px;
-    display: none;    
-}
-*/
-
-
 
 /*Contact section*/
 #contact-section{
@@ -281,10 +284,11 @@ textarea:focus{
 input[type="submit"]{
     width: 100%;
     padding: 12px;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-top: 25px;
     background-color: #2A2A93;
     color: white;
+    cursor: pointer;
 }
 
 #agency-info{
@@ -310,25 +314,24 @@ h3{
     margin: 8px 4px;
 }
 
-/*Styling footer*/
-footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+/*Styles for tour's page*/
+#main-text h1{
+    margin-top: 125px;
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline;
 }
 
-.fab{
-    font-size: 30px;
-    margin-bottom: 25px;
-    color: #2A2A93;
+#main-text p{
+    width: 75%;
+    text-align: center;
+    margin: 25px auto;
 }
 
-footer a:visited{
-    color: #2A2A93;
+/*Styling image*/
+#img2{
+    width: 640px;
 }
-
-/*Styling social media icons*/
 
 /*Trying to get pages to work*/
 
@@ -336,42 +339,3 @@ footer a:visited{
 
 /*https://stackoverflow.com/questions/53392965/set-two-flex-items-side-by-side-in-a-flexbox-column to flex me to submit apo katw*/
 
-/*
-
-#contact-container-box{
-    width: 80%;
-    display: flex;
-    margin: 0 auto;
-    flex-direction: row;
-    justify-content: space-around;
-    color: white;
-}
-
-#form{
-    width: 400px;
-    height: 400px;
-    border: 1.5px solid white;
-}
-
-#form h2{
-    color: white;
-    margin: 10px auto;
-}
-
-form{
-    font-size: 20px;
-}
-
-.text-input{
-    width: 80%;
-    line-height: 25px;
-    background-color: inherit;
-    border-bottom: 1px solid white;
-    color: white;
-    margin: 10px auto;
-}
-
-#submit-btn{
-    width: 40px;
-    height: 40px;
-}*/
