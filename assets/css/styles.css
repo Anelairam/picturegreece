@@ -315,14 +315,22 @@ h3{
 }
 
 /*Styles for tour's page*/
-#main-text h1{
+#main-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+#main-text h2{
     margin-top: 125px;
     text-align: center;
     font-size: 35px;
     text-decoration: underline;
 }
 
-#main-text p{
+#main-text h3{
     width: 75%;
     text-align: center;
     margin: 25px auto;
@@ -341,6 +349,8 @@ h3{
     height: 360px;
     border: 2px solid white;
 }
+
+
 
 /*Trying to get pages to work*/
 
