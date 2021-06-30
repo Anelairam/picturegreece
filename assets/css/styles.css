@@ -329,8 +329,16 @@ h3{
 }
 
 /*Styling image*/
-#img2{
-    width: 640px;
+#sample-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.img-thumb{
+    width: 22.5%;
+    height: 360px;
+    border: 2px solid white;
 }
 
 /*Trying to get pages to work*/
