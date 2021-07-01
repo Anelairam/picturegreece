@@ -461,7 +461,7 @@ footer a:visited{
     }
 
     #menu li{
-        margin: 0 20px;
+        margin: 0 10px;
     }
 
     #main-text h2{
@@ -537,10 +537,7 @@ footer a:visited{
     .img-thumb{
         height: 100px;
     }
-
-
 }
-
 
 
 /*https://stackoverflow.com/questions/53392965/set-two-flex-items-side-by-side-in-a-flexbox-column to flex me to submit apo katw*/
