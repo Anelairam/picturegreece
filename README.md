@@ -2,8 +2,8 @@
 
 Picture Greece is a website dedicated to everyone mostly intrested in photography organises group trips around Greece for entertaining and learning purposes. The site will be targeted toward photographers, people who love learning and socialise with others.
 
-![Responsice Mockup](https://github.com/Anelairam/picturegreece/blob/master/responsive.jpg)
-![Responsice Mockup](https://github.com/Anelairam/picturegreece/blob/master/responsive2.jpg)
+![Responsice Mockup](https://github.com/Anelairam/picturegreece/blob/master/responsive.jpg)![Responsice Mockup](https://github.com/Anelairam/picturegreece/blob/master/responsive2.jpg)
+
 
 ## Features 
 
