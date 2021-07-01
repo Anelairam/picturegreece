@@ -3,6 +3,7 @@
 Picture Greece is a website dedicated to everyone mostly intrested in photography organises group trips around Greece for entertaining and learning purposes. The site will be targeted toward photographers, people who love learning and socialise with others.
 
 ![Responsice Mockup](https://github.com/Anelairam/picturegreece/blob/master/responsive.jpg)
+![Responsice Mockup](https://github.com/Anelairam/picturegreece/blob/master/responsive2.jpg)
 
 ## Features 
 
@@ -52,11 +53,18 @@ In this section, you should go over the different parts of your project, and des
 
 ![Footer and social media](https://github.com/Anelairam/picturegreece/blob/master/social.jpg)
 
-- __The Sign Up Page__
+- __The Tour Page__
 
   - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+- __Urban__
+![Urban](https://github.com/Anelairam/picturegreece/blob/master/urban.jpg)
+
+__Landscape__
+![Landscape](https://github.com/Anelairam/picturegreece/blob/master/landscape.jpg)
+
+__Island__
+![ISland](https://github.com/Anelairam/picturegreece/blob/master/island.jpg)
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
