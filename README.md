@@ -1,8 +1,6 @@
 # Picture Greece
 
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
-
-For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club. 
+Picture Greece is a website dedicated to everyone mostly intrested in photography organises group trips around Greece for entertaining and learning purposes. The site will be targeted toward photographers, people who love learning and socialise with others.
 
 ![Responsice Mockup](https://github.com/Anelairam/picturegreece/blob/master/responsive.jpg)
 
@@ -17,42 +15,42 @@ In this section, you should go over the different parts of your project, and des
   - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](https://github.com/Anelairam/picturegreece/blob/master/navbar.jpg)
 
 - __The landing page image__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
+  - The landing includes a photograph with a fixed navigation bar which will allow the user to navigate through the page with a thin black line so it can be seperated from  
   - This section introduces the user to Love Running with an eye catching animation to grab their attention
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page](https://github.com/Anelairam/picturegreece/blob/master/header.jpg)
 
-- __Club Ethos Section__
+- __About Us section__
 
   - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
   - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![About us](https://github.com/Anelairam/picturegreece/blob/master/aboutus.jpg)
 
-- __Meetup Times section__
+- __Tour section__
 
   - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
   - This section will be updated as these times change to keep the user up to date. 
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Tours](https://github.com/Anelairam/picturegreece/blob/master/tours.jpg)
 
-- __The Footer__ 
+- __Contact Us section__ 
 
   - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Contact us](https://github.com/Anelairam/picturegreece/blob/master/contact.jpg)
 
-- __Gallery__
+- __Footer and social media__
 
   - The gallery will provide the user with supporting images to see what the meet ups look like. 
   - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Footer and social media](https://github.com/Anelairam/picturegreece/blob/master/social.jpg)
 
 - __The Sign Up Page__
 
