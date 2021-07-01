@@ -27,7 +27,7 @@ In this section, you should go over the different parts of your project, and des
 
 - __About Us section__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
+  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall.
   - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
 
 ![About us](https://github.com/Anelairam/picturegreece/blob/master/aboutus.jpg)
