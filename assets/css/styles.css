@@ -249,7 +249,7 @@ input[type="radio"]{
     margin-left: 10px;
     margin-bottom: 25px;
 }
-
+/*Check without the urban #*/
 input[type="radio"] #urban
 {
     margin-left: 15px;
@@ -296,7 +296,7 @@ h3{
     margin: 8px 4px;
 }
 
-/*Styles for tour's page*/
+/*Styles for destination tour's page*/
 #main-text{
     display: flex;
     justify-content: center;
@@ -355,9 +355,150 @@ footer a:visited{
 /*Media queries*/
 
 @media screen and (max-width: 1440px){ 
+    /*Height restyling for the images at destination's page*/
     .img-thumb{
         height: 260px;
     }
+}
+
+@media screen and (max-width: 1024px){
+    /*Margin restyling for the about us section*/
+    #about-us{
+        margin: 70px auto;
+    }
+
+    /*restyling for the main image*/
+    #main-image{
+        background-attachment: fixed;
+    }
+
+    /*Height restyling for the images at destination's page*/
+    .img-thumb{
+        height: 200px;
+    }
+
+    /*Width restyling for form and spacing for radio buttons and sbmit button*/
+    #form{
+        width: 65%;
+    }
+
+    #radio-area{
+        width: 85%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #main-label{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    input[type="radio"] 
+    {
+        margin: 5px;
+    }
+
+    textarea{
+        height: 80px;
+    }
+
+    input[type="submit"]{
+        margin-top: 15px;
+    }
+}
+
+/*Styling for tablets*/
+@media screen and (max-width: 768px){
+    /*Styling about us section*/
+    #about-us{
+        margin: 100px auto;
+    }
+
+    #about-us h1{
+        margin-bottom: 25px;
+    }
+    /*Styling tour section*/
+    #tour-section{
+        width: 90%;
+    }
+
+    .tour{
+        width: 200px;
+        height: 200px;
+    }
+
+    .image-link{
+        height: 250px;
+    }
+
+    /*Styling contact section*/
+    #contact-section{
+        height: 760px;
+    }
+    #contact-container-box{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #form{
+        width: 90%;
+    }
+
+
+    /*Height restyling for the images at destination's page*/
+    .img-thumb{
+        height: 150px;
+    }
+}
+
+/*Styling for iphone*/
+@media screen and (max-width: 414px){
+    /*Styling header and navigation menu*/
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #menu li{
+        margin: 0 20px;
+    }
+
+    #main-text h2{
+        margin-top: 160px;
+    }
+
+    /*Styling about us section*/
+    #about-us{
+        margin: 280px auto;
+    }
+
+    #about-us h1{
+        margin-bottom: 25px;
+    }
+
+    /*Styling tour section*/
+    #tour-section h1{
+        background-color: lightcoral;
+        margin-top: 325px;
+    }
+
+    #tour-container-box{
+        background-color: lemonchiffon;
+        flex-direction: column;
+    }
+    /*Styling contact section*/
+
+    #contact-section{
+        margin: 50px auto;
+    }
+
+    /*Height restyling for the images at destination's page*/
+    .img-thumb{
+        height: 100px;
+    }
+
+
 }
 
 

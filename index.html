@@ -107,13 +107,16 @@
                         <input class="text-input" type="email" id="email" name="email" required><br>
                     </span>
                     <span id="right-side" class="form-sides">
-                        <label >Subject: </label>
-                        <input type="radio" id="Urban" name="fav_language" value="Urban">
-                        <label for="Urban">Urban</label>
-                        <input type="radio" id="Landscape" name="fav_language" value="Landscape">
-                        <label for="Landscape">Landscape</label>
-                        <input type="radio" id="Island" name="fav_language" value="Island">
-                        <label for="Island">Island</label><br>
+                        <span id="radio-area">
+                            <label id="main-label">Subject: </label>
+                            <input type="radio" id="Urban" name="picked-destination" value="Urban">
+                            <label for="Urban">Urban</label>
+                            <input type="radio" id="Landscape" name="picked-destination" value="Landscape">
+                            <label for="Landscape">Landscape</label>
+                            <input type="radio" id="Island" name="picked-destination" value="Island">
+                            <label for="Island">Island</label>
+                        </span>
+                        <br>
                         <label for="message">Messsage</label><br>
                         <textarea class="text-input" rows="7" cols="50" id="message" name="message" placeholder="Let us know how can we help you..."></textarea><br>
                     </span>
