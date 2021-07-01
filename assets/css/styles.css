@@ -547,6 +547,13 @@ footer a:visited{
     }
 }
 
+@media screen and (max-width: 320px){
+    #logo{
+        font-size: 45px;
+        margin-left: auto;
+    }
+}
+
 
 /*https://stackoverflow.com/questions/53392965/set-two-flex-items-side-by-side-in-a-flexbox-column to flex me to submit apo katw*/
 
