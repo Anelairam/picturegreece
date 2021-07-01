@@ -552,6 +552,15 @@ footer a:visited{
         font-size: 45px;
         margin-left: auto;
     }
+
+    #about-us{
+        margin: 320px auto 35px auto;
+    }
+
+    #tour-section{
+        margin-top: 320px;
+        height: 100%;
+    }
 }
 
 
