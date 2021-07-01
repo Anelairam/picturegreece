@@ -470,7 +470,7 @@ footer a:visited{
 
     /*Styling about us section*/
     #about-us{
-        margin: 280px auto;
+        margin: 280px auto 35px auto;
     }
 
     #about-us h1{
@@ -478,20 +478,60 @@ footer a:visited{
     }
 
     /*Styling tour section*/
+    #tour-section{
+        margin-top: 150px;
+        height: 100%;
+    }
     #tour-section h1{
-        background-color: lightcoral;
-        margin-top: 325px;
+        margin-top: 150px;
     }
 
     #tour-container-box{
-        background-color: lemonchiffon;
         flex-direction: column;
+        justify-content: space-around;
     }
+
+    .tour{
+        margin: 45px auto;
+    }
+
     /*Styling contact section*/
 
     #contact-section{
-        margin: 50px auto;
+        height: 1000px;
     }
+
+    #contact-container-box{
+        flex-direction: column;
+    }
+
+    form{
+        flex-direction: column;
+        align-items: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #form{
+        flex-direction: column;
+        align-items: center;
+        height: 600px;
+    }
+
+    .form-sides{
+        width: 80%;
+        margin: 5px auto;
+    }
+
+    #right-side{
+        border: none;
+        padding-left: 0;
+    }
+
+    input[type="submit"]{
+        width: 80%
+    }
+
 
     /*Height restyling for the images at destination's page*/
     .img-thumb{
