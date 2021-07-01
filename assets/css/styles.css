@@ -8,7 +8,7 @@
     border: none;
 }
 
-/*Styling header, nav and footer which are common for all the pages*/
+/*Styling header, nav common for all the pages*/
 
 body{
     font-family: Roboto, sans-serif;
@@ -73,24 +73,6 @@ header a{
     border-bottom: 4px solid #2A2A93;
 }
 
-/*Styling footer*/
-footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-
-/*Styling social media icons*/
-.fab{
-    font-size: 30px;
-    margin-bottom: 25px;
-    color: #2A2A93;
-}
-
-footer a:visited{
-    color: #2A2A93;
-}
 
 /*Styles for index page*/
 
@@ -350,9 +332,33 @@ h3{
     border: 2px solid white;
 }
 
+/*Styling footer common for all the pages*/
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*Styling social media icons*/
+.fab{
+    font-size: 30px;
+    margin-bottom: 25px;
+    color: #2A2A93;
+}
+
+footer a:visited{
+    color: #2A2A93;
+}
 
 
-/*Trying to get pages to work*/
+/*Media queries*/
+
+@media screen and (max-width: 1440px){ 
+    .img-thumb{
+        height: 260px;
+    }
+}
 
 
 
