@@ -2,7 +2,8 @@
 
 Picture Greece is a website dedicated to everyone mostly intrested in photography organises group trips around Greece for entertaining and learning purposes. The site will be targeted toward photographers, people who love learning and socialise with others.
 
-![Responsice Mockup](https://github.com/Anelairam/picturegreece/blob/master/responsive.jpg)![Responsice Mockup](https://github.com/Anelairam/picturegreece/blob/master/responsive2.jpg)
+![Responsice Mockup](https://github.com/Anelairam/picturegreece/blob/master/responsive.jpg)
+![Responsice Mockup](https://github.com/Anelairam/picturegreece/blob/master/responsive2.jpg)
 
 
 ## Features 
@@ -24,6 +25,7 @@ In this section, you should go over the different parts of your project, and des
   - This section introduces the user to Love Running with an eye catching animation to grab their attention
 
 ![Landing Page](https://github.com/Anelairam/picturegreece/blob/master/header.jpg)
+![Landing Page](https://github.com/Anelairam/picturegreece/blob/master/iphonesE.jpg)
 
 - __About Us section__
 
